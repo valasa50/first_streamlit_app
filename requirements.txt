@@ -1,2 +1,36 @@
 # requirements.txt
 snowflake-connecter-python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import snowflake.connector
