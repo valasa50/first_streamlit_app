@@ -25,8 +25,6 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon"
 streamlit.text(fruityvice_response)
 #new section to desplay Fuitverse api responce
 streamlit.header("Fruityvice Fruit Advice!")
-
-import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 # streamlit.text(fruityvice_response.json())
 # Convert from json to normelize  
@@ -40,5 +38,4 @@ streamlit.write('The user entered ', fruit_choice)
 fruityvice_repsonse = requests.get("https://fruityvice.com/api/fruit/"+"apple")
 fruityvice_normalized = pandas.json_normalize(fruityvice_repsonse.json())
 streamlit.dataframe(fruityvice_normalized)
-
 import snowflake.connector
